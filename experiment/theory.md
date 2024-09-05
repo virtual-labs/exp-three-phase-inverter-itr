@@ -36,7 +36,7 @@ During Step-I, SCRs 5, 6 & 1 are conducting. These are shown as closed switches 
 The load terminals a & c are connected to the positive bus of DC source whereas terminal b is connected to the negative bus of DC source. 
 The load voltage V<sub>ab</sub> = V<sub>bc</sub> = V<sub>s</sub> in magnitude. The magnitude of neutral voltage can be calculated as shown below:<br>
 
-During step-I, 0 &le; &omega;t < $\frac {\pi}{3}$, only 5, 6, and 1 thyristors are conducting.<br>
+During step-I, 0 &le; &omega;t < &pi;/3, only 5, 6, and 1 thyristors are conducting.<br>
 Current,
 
 <center>
@@ -59,9 +59,21 @@ $$v_{bo} = i_1 Z =  2\frac {V_s}{3}$$
 
 </center>
 
-The above line to neutral voltage may be written as $V_{ao} = V_{co}= \frac {V_s}{3}$ and $V_{bo} = -\left(2\frac {V_s}{3}\right)$.<br>
+The above line to neutral voltage may be written as 
 
-During step-II, $\frac{\pi} {3}$ &le; &omega;t < $2 \frac {\pi}{3}$, only 6, 1, and 2 thyristors are conducting.<br>
+<center>
+
+$$V_{ao} = V_{co}= \frac {V_s}{3}$$
+
+</center>
+
+<center>
+
+$$V_{bo} = -\left(2\frac {V_s}{3}\right)$$
+
+</center>
+
+During step-II, &pi;/3 &le; &omega;t < 2&pi;/3, only 6, 1, and 2 thyristors are conducting.<br>
 Current,
 
 <center>
@@ -90,7 +102,7 @@ The output voltages as calculated for step-I & II are plotted to get the output 
       <center><b>Fig. 4 The Voltage waveform for 180° mode 3-phase VSI</b></center> 
 
 From the above waveform, it is clear that for each cycle of output voltage of each phase, six steps are required and each step has a duration of 60°.
-The line voltage V<sub>ab</sub> = V<sub>ao</sub> + V<sub>bo</sub> or V<sub>sb</sub> = V<sub>ao</sub> – V<sub>bo</sub> is obtained by reversing V<sub>bo</sub> and adding it to V<sub>ao</sub>. This is shown in the output waveform (b). Similarly, line voltages $V_{bc}$ & $V_{ca}$ are plotted.
+The line voltage V<sub>ab</sub> = V<sub>ao</sub> + V<sub>bo</sub> or V<sub>sb</sub> = V<sub>ao</sub> – V<sub>bo</sub> is obtained by reversing V<sub>bo</sub> and adding it to V<sub>ao</sub>. This is shown in the output waveform (b). Similarly, line voltages V<sub>bc</sub> & V<sub>ca</sub> are plotted.
 
 **Formula of Line and Phase Voltage:**
 The Fourier analysis of output voltage can be described by the Fourier series as follows 
